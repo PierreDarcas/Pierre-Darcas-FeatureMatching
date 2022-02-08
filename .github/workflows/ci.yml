@@ -1,4 +1,4 @@
-name: .NET
+name: CI
 
 on:
   push:
@@ -17,9 +17,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test 
+    - name: Publish
+      run: dotnet publish ./src/Pierre.Darcas.FeatureMatching.Console/Pierre.Darcas.FeatureMatching.Console.csproj --self-contained true --output ./win-x64/feature-matching -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true /p:PublishReadyToRun=true
+
