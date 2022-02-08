@@ -36,4 +36,8 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Pierre.Darcas.FeatureMatching\Pierre.Darcas.FeatureMatching.csproj" />
+    </ItemGroup>
+
 </Project>
