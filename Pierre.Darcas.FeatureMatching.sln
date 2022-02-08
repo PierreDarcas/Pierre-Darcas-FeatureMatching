@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatching", "src\Pierre.Darcas.FeatureMatching\Pierre.Darcas.FeatureMatching.csproj", "{2E02FDD6-96F4-4D2C-A069-52B0D1B5AB78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatching.Tests", "Pierre.Darcas.FeatureMatching.Tests\Pierre.Darcas.FeatureMatching.Tests.csproj", "{6A2131CB-3123-48C4-80D1-5EDC115A67EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatching.Tests", "tests\Pierre.Darcas.FeatureMatching.Tests\Pierre.Darcas.FeatureMatching.Tests.csproj", "{B32D6782-3125-4372-BE62-8C0293C1E2C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{2E02FDD6-96F4-4D2C-A069-52B0D1B5AB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E02FDD6-96F4-4D2C-A069-52B0D1B5AB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E02FDD6-96F4-4D2C-A069-52B0D1B5AB78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A2131CB-3123-48C4-80D1-5EDC115A67EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A2131CB-3123-48C4-80D1-5EDC115A67EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A2131CB-3123-48C4-80D1-5EDC115A67EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A2131CB-3123-48C4-80D1-5EDC115A67EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32D6782-3125-4372-BE62-8C0293C1E2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32D6782-3125-4372-BE62-8C0293C1E2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32D6782-3125-4372-BE62-8C0293C1E2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32D6782-3125-4372-BE62-8C0293C1E2C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
