@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatchi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatching.Console", "src\Pierre.Darcas.FeatureMatching.Console\Pierre.Darcas.FeatureMatching.Console.csproj", "{C7FEA9C9-2051-4E18-ACF4-64F366E2073F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Darcas.FeatureMatching.WebApi", "Pierre.Darcas.FeatureMatching.WebApi\Pierre.Darcas.FeatureMatching.WebApi.csproj", "{2B50859E-CE24-4232-A14C-FA4BBBF69BA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C7FEA9C9-2051-4E18-ACF4-64F366E2073F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7FEA9C9-2051-4E18-ACF4-64F366E2073F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7FEA9C9-2051-4E18-ACF4-64F366E2073F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B50859E-CE24-4232-A14C-FA4BBBF69BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B50859E-CE24-4232-A14C-FA4BBBF69BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B50859E-CE24-4232-A14C-FA4BBBF69BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B50859E-CE24-4232-A14C-FA4BBBF69BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
